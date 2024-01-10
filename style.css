@@ -17,6 +17,10 @@ h1 {
      width: 100%;
 }
 
+h2 {
+     color: black;
+}
+
 h3 {
      font: 900 1em 'Raleway', sans-serif;
      color: rgba(249, 249, 249, 0.5);
@@ -24,3 +28,21 @@ h3 {
      text-transform: none;
      letter-spacing: 0.01em;
 }
+
+.copy-button {
+     font: 900 1em 'Raleway', sans-serif;
+     padding: 10px 15px;
+     background-color: #ffffff;
+     color: #000000;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+ }
+
+ .copy-message {
+     font: 900 1em 'Raleway', sans-serif;
+     display: none;
+     color: #ffffff;
+     font-size: 14px;
+ }

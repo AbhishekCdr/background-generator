@@ -12,7 +12,11 @@
     <input class="color1" type="color" name="color1" value="#00ff00">
     <input class="color2" type="color" name="color2" value="#ff00">
     <h2>Current CSS Background</h2>
-    <h3></h3>
+    <div class="container">
+        <h3 id="contentToCopy"></h3>
+        <button class="copy-button" onclick="copyToClipboard()">Copy to Clipboard</button>
+        <span class="copy-message" id="copyMessage">Copied to clipboard!</span>
+    </div>
     <br>
     <script type="text/javascript" src="script.js"></script>
 </body>
